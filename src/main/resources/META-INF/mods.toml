@@ -1,0 +1,11 @@
+[mod]
+modid="minecraft_mod_tutorial"
+ame="Minecraft Mod Tutorial"
+description="A tutorial mod for Minecraft."
+version="1.0.0"
+author="Nickel777"
+contacturl="https://example.com/"
+type="client"
+
+[dependencies]
+examplemod=a [%Ã—","1.0.0"
