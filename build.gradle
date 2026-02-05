@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'maven' // Apply the Maven plugin if you want to publish your mod
+}
+
+archivesBaseName = 'yourmod'
+version = '1.16.5-1.0.0'
+group = 'com.yourname.yourmod'
+
+minecraft {
+    version = "1.16.5-36.1.0"
+    runDir = "run"
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+// Add tasks here for your mod if necessary
